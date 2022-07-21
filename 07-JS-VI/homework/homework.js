@@ -68,6 +68,11 @@ function filter(array) {
 // return array.filter(function(elemento){
 // return elemento[0] === "a";});
 
+//var nuevoArray = []
+//for(let i = 0; i < array.length; i ++){
+//if(array[i][0] === "a"){
+//nuevoArray.push(array[i])}}
+//return nuevoArray};
 }
 
 // No modificar nada debajo de esta línea
