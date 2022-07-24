@@ -1,0 +1,107 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    
+}
+
+.divclass{
+    flex: /*10rem, 20rem, 40rem*/ 70rem;
+    background: white;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 80%);
+    margin: 1rem;
+    padding: 1rem .5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-align-last: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(177, 22, 22);
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: .5rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin: .5rem;
+}
+
+h4{
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    text-transform: capitalize;
+    margin: 1rem;
+}
+
+#spanId{
+    display:contents;
+    font-size: 18px;
+    margin: 50px;
+}
+
+a{
+    display:block;
+    margin-top: .5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    background:rgb(19, 110, 59);
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(238, 36, 26);
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(8, 114, 62);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 80%);
+    padding: 50x;
+    margin: 1rem;
+    border-color: rgb(174, 14, 14);
+    border-style: double;
+    /*flex:  1rem;   /*----*/
+    border-radius: 0.5rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    margin: 1.4rem;
+    padding: .1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.fondo{
+    display: flex;    /*----*/
+    align-items: center;
+    justify-content: center;
+    background: url(comida.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
