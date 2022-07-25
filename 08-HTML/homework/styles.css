@@ -10,7 +10,7 @@
 }
 
 .divclass{
-    flex: /*10rem, 20rem, 40rem*/ 70rem;
+    flex: /*10rem, 70rem, 20rem,*/ 20rem ;
     background: white;
     border-radius: 0.5rem;
     border: 0.1rem solid rgba(0, 0, 0, .2);
@@ -76,7 +76,7 @@ a:hover{
     padding: 50x;
     margin: 1rem;
     border: 8px double rgb(174, 14, 14);
-    /*flex:  1rem;   /*----*/
+    flex:  1rem;   /*----*/
     border-radius: 0.5rem;
     text-align: center;
     align-content: center;
